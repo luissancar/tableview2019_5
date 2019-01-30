@@ -10,7 +10,9 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var imagen: UIImageView!
     @IBOutlet weak var textoCelda: UILabel!
+    @IBOutlet weak var buton: UIButton!
     
     
     
